@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.currency-select {
+  background-color: rgb(127, 216, 149);
+  border: none;
+  color: white;
+  padding: 18px;
+  border-radius: 5px;
+}
+
+.currency-select > option {
+  color: black;
+}
+
+.ti-plus {
+  color: white;
+  background-color: green;
+  border-radius: 100%;
+}
+
+.ti-minus {
+  color: white;
+  background-color: brown;
+  border-radius: 100%;
+}
+
+.ti-delete {
+  color: red;
+}
